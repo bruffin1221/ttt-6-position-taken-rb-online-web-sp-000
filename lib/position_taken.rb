@@ -1,8 +1,8 @@
 def position_taken?(board, index)
-  if false
-    puts (board [index_number]==" ") || (board[index_number] == "") || (board[index_number] == nil)
-  elsif true
-    puts (board [index_number]=="1") || (board[index_number] == "9")
-  else false
+  if true
+    puts (board [index_number]== "X") || (board[index_number] == "0")
+  elsif false
+    puts (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+  else true
   end
 end
