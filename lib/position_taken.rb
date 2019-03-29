@@ -6,6 +6,6 @@ def position_taken?(board, index)
       eslif false
       puts (board[index] == nil)
   else true
-    puts (board[index] == "X') || board[index]=="O"
+    puts (board[index] == "X') || (board[index]=="O")
   end
 end
